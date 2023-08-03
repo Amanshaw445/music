@@ -1,0 +1,310 @@
+body{
+    background-image: url('space_bg.jpg');
+  background-size: cover;
+  filter: brightness(100%);
+font-family: 'REM', sans-serif;
+
+}
+.nav{color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.466) ;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 7px;
+
+}
+.nav>p{
+    display: flex;
+    justify-content: center;
+}
+.nav>p>a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav>p>img{
+    height: 40px;
+    width: 50px;
+    padding: 3px 10px;
+    text-decoration: none;
+    
+}
+.musiclogo>img{
+    height: 50px;
+    width: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.599);
+    border-radius: 7px;
+    filter: brightness(100%);
+}
+
+.nav p a:hover{
+    text-decoration: underline;
+}
+.nav>div{
+    display: flex;
+    float: right 2px;
+    flex-direction: column;
+}
+/* _______________________navbar ends here__________________________ */
+.container{
+    height: 75vh;
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left{
+    width: 24%;
+    height: 100%;
+    margin: 4px 0px;
+    background-color: rgba(0, 0, 0, 0.825);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left1{
+    height: 9%;
+    width: 100%;
+    margin: 4px 0px;
+    border-radius: 7px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left1>div{
+    color: white;
+    height:98%;
+    width:48%;
+    background-color: rgba(19, 19, 19, 0.845);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+
+}
+.left1>div:hover{
+    background-color:  rgba(35, 35, 36, 0.873);
+    cursor: pointer;
+}
+.left1>div>p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left1>div>p:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+}
+.left2{overflow-y: auto;
+    width: 100%;
+    height: 90%;
+    margin: 4px 0px;
+    background-color: rgba(0, 0, 0, 0.825);
+    border-radius: 10px;
+
+}
+.left2::-webkit-scrollbar {
+    width: 0;
+  }
+.right{
+    width: 75%;
+    height: 100%;
+    margin: 4px 0px;
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 10px;
+    background-image: url('coverphoto4.jpg');
+    overflow-x: hidden;
+}
+.right::-webkit-scrollbar {
+    width: 0;
+  }
+.div-1{
+    position: fixed;
+    width: 75%;
+}
+.div0{
+    float: right;
+    width: 35%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+    
+     
+}
+.div0>div{
+    border-radius: 25px;
+    background-color: rgb(40, 1, 47);
+    padding: 5px 17px;
+    margin-top: 7px;
+
+}
+.div0>div:hover{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.div1{
+    height: 45vh;
+    width: 95%;
+    color: white;
+    padding: 5vh;
+    
+
+}
+.div1>p>i{
+    margin: 0px;
+    margin-left: 1vw;
+}
+.div1>h1{
+    margin: 0px;
+    margin-left: 1vw;
+    font-family: 'REM', sans-serif;
+
+
+}
+.div1>h4{
+    margin: 0px;
+    margin-left: 1.3vw;
+}
+
+.div2{
+    height: 15vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    margin: 0px;
+}
+.div2>p{
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 5px 17px;
+    margin-top: 7px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    transition: 200ms;
+    border-radius: 36px;
+    
+}
+.btn1{
+    border: 1px solid white;   
+    cursor: pointer;
+}
+.div2>p:hover{
+    transform: scale(1.09);
+}
+.div3{
+    height: 30vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.649);
+    color: rgb(0, 0, 0);
+    margin: 0px 3px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+
+}
+.songs1{
+    height: 40px;
+    width: 100%;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 1px solid;
+    display: flex;
+    align-items: center;
+}
+.songs1:hover{
+    background-color: rgb(47, 47, 47);
+}
+.song1>p{
+    float: right;
+}
+.div4{
+    height: 25vh;
+    width: 100%;
+    margin: 0px;
+    background-color: blueviolet;
+    
+
+}
+.imglogo{
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 27px;
+    border: 1px solid white;
+}
+.imglogo2{
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+/* ________________________player__________________________ */
+.player{
+    background-color: rgba(0, 0, 0, 0.847);
+    height: 12vh;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.songs{
+    color: rgb(0, 0, 0);
+    height: 40px;
+    background-color: transparent;
+    margin: 6px 3px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.songs:hover{
+    background-color: rgba(49, 49, 49, 0.59);
+    
+}
+.songs>a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+#progressbar{
+    width: 80%;
+    color: blueviolet;
+    height: 5px;
+    
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.buttons_{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.buttons_>i{
+    margin: 0px 10px;
+}
+#gif{
+    position: absolute;
+    left: 10px;
+    opacity: 0;
+}
